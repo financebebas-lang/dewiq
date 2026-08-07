@@ -1,14 +1,13 @@
 <!DOCTYPE html>
 <html lang="id" class="scroll-smooth">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dewi Q - Higgs Domino Island APK Speeder X8 Anti-Lag</title>
+    <title>DewiQ - Higgs Domino Island APK Speeder X8 Anti-Lag</title>
     
     <!-- Open Graph / SEO untuk Share WA & FB -->
-    <meta property="og:title" content="Dewi Q - Higgs Domino Island APK Speeder X8">
-    <meta property="og:description" content="Download APK Higgs Domino Mod Speeder X8 versi Dewi Q. Spin mulus, anti-lag, tanpa iklan!">
+    <meta property="og:title" content="DewiQ - Reviewer Game Higgs Domino Island Mod APK">
+    <meta property="og:description" content="Download APK Higgs Domino Mod Speeder X8 versi DewiQ. Spin mulus, anti-lag, tanpa iklan!">
     <meta property="og:url" content="https://dewiq.my.id">
     <link rel="canonical" href="https://dewiq.my.id">
 
@@ -22,21 +21,27 @@
             theme: {
                 extend: {
                     colors: {
-                        imperial: {
-                            dark: '#0f0203',     // Hitam Kemerahan Deep
-                            red: '#800a0e',      // Merah Marun Kaisar
-                            redbright: '#c01319',// Merah Menyala
-                            gold: '#d4af37',     // Emas Klasik
-                            goldlight: '#f3e5ab',// Emas Muda
+                        dewi: {
+                            dark: '#08041d',       // Deep Cyber Dark (Sesuai Banner)
+                            card: '#120b33',       // Dark Card Background
+                            pink: '#fe0879',       // Neon Pink / Magenta Banner
+                            cyan: '#00f2fe',       // Electric Cyan Logo Text
+                            purple: '#7b2cbf',     // Cyber Purple Glow
+                            accent: '#4cc9f0'      // Soft Cyan Accent
                         }
                     },
                     animation: {
                         'pulse-glow': 'pulseGlow 3s infinite',
+                        'neon-shimmer': 'neonShimmer 2s infinite alternate',
                     },
                     keyframes: {
                         pulseGlow: {
-                            '0%, 100%': { opacity: '0.3', transform: 'scale(1)' },
-                            '50%': { opacity: '0.6', transform: 'scale(1.08)' }
+                            '0%, 100%': { opacity: '0.4', transform: 'scale(1)' },
+                            '50%': { opacity: '0.7', transform: 'scale(1.05)' }
+                        },
+                        neonShimmer: {
+                            '0%': { filter: 'drop-shadow(0 0 5px #00f2fe) drop-shadow(0 0 15px #fe0879)' },
+                            '100%': { filter: 'drop-shadow(0 0 15px #00f2fe) drop-shadow(0 0 25px #fe0879)' }
                         }
                     }
                 }
@@ -44,92 +49,102 @@
         }
     </script>
 </head>
-<body class="bg-imperial-dark text-slate-100 font-sans antialiased selection:bg-imperial-gold selection:text-imperial-dark relative min-h-screen overflow-x-hidden">
+<body class="bg-dewi-dark text-slate-100 font-sans antialiased selection:bg-dewi-pink selection:text-white relative min-h-screen overflow-x-hidden">
 
-    <!-- ========================================== -->
-    <!-- VIDEO BACKGROUND NAGA TERBANG (TRANSPARAN) -->
-    <!-- ========================================== -->
+    <!-- Video Background Naga Terbang (Transparan) -->
     <div class="fixed inset-0 w-full h-full overflow-hidden -z-20 pointer-events-none">
         <video autoplay loop muted playsinline class="w-full h-full object-cover opacity-25 filter contrast-125">
-            <!-- GANTI NAMA FILE / URL VIDEO NAGA ANDA DI SINI -->
             <source src="naga.mp4" type="video/mp4">
             Browser Anda tidak mendukung video background.
         </video>
-        <!-- Overlay Gelap Tambahan agar Teks Tetap Sangat Jelas -->
-        <div class="absolute inset-0 bg-gradient-to-b from-imperial-dark/60 via-imperial-dark/80 to-imperial-dark"></div>
+        <!-- Overlay Gelap Cyber Glow -->
+        <div class="absolute inset-0 bg-gradient-to-b from-dewi-dark/70 via-dewi-dark/90 to-dewi-dark"></div>
     </div>
 
-    <!-- Background Glow Red Accent -->
-    <div class="fixed top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[600px] bg-gradient-to-b from-imperial-red/20 via-imperial-red/5 to-transparent blur-3xl pointer-events-none -z-10 animate-pulse-glow"></div>
+    <!-- Glowing Background Accents -->
+    <div class="fixed top-0 left-1/4 -translate-x-1/2 w-96 h-96 bg-dewi-pink/20 blur-3xl pointer-events-none -z-10 animate-pulse-glow"></div>
+    <div class="fixed top-20 right-1/4 translate-x-1/2 w-96 h-96 bg-dewi-cyan/20 blur-3xl pointer-events-none -z-10 animate-pulse-glow" style="animation-delay: 1.5s;"></div>
+
+    <!-- Top Banner Info Jadwal YouTube (Berdasarkan Banner) -->
+    <div class="bg-gradient-to-r from-dewi-pink via-purple-600 to-dewi-cyan text-white text-xs font-bold py-1.5 px-4 text-center tracking-wider shadow-lg">
+        <i class="fa-brands fa-youtube text-sm mr-1"></i> NEW VIDEOS: TUES & SAT 7 PM WIB • @dewiQ_official
+    </div>
 
     <!-- Header Navbar -->
-    <header class="bg-imperial-dark/90 backdrop-blur-md border-b border-imperial-gold/20 sticky top-0 z-50">
-        <div class="max-w-6xl mx-auto px-4 py-3.5 flex justify-between items-center">
-            <div class="text-xl md:text-2xl font-black text-transparent bg-clip-text bg-gradient-to-r from-imperial-gold via-imperial-goldlight to-imperial-gold flex items-center gap-2">
-                <i class="fa-solid fa-crown text-imperial-gold"></i> DEWI Q - HIGGS DOMINO
-            </div>
-            <a href="https://github.com/financebebas-lang/dewiq/releases/download/mod/Higgs_Games_Island_Terbaru.V.2.81.apk" class="bg-gradient-to-r from-imperial-gold to-yellow-600 hover:from-imperial-goldlight hover:to-imperial-gold text-imperial-dark font-extrabold px-5 py-2 rounded-xl shadow-lg shadow-imperial-gold/10 transition duration-300 transform hover:scale-105 text-sm md:text-base">
-                Download APK
+    <header class="bg-dewi-dark/90 backdrop-blur-md border-b border-dewi-cyan/20 sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
+            <a href="#" class="text-2xl md:text-3xl font-black italic tracking-wider flex items-center gap-2">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-dewi-cyan via-white to-dewi-pink animate-neon-shimmer">
+                    dewi<span class="text-dewi-pink">Q</span>
+                </span>
             </a>
+            <div class="flex items-center gap-3">
+                <a href="https://www.youtube.com/@dedewiq" target="_blank" class="hidden sm:flex items-center gap-1.5 text-xs bg-red-600 hover:bg-red-700 text-white font-bold px-3 py-1.5 rounded-lg transition">
+                    <i class="fa-brands fa-youtube"></i> Subscribe
+                </a>
+                <a href="https://github.com/financebebas-lang/dewiq/releases/download/mod/Higgs_Games_Island_Terbaru.V.2.81.apk" class="bg-gradient-to-r from-dewi-pink to-purple-600 hover:from-pink-500 hover:to-dewi-pink text-white font-extrabold px-5 py-2 rounded-xl shadow-lg shadow-dewi-pink/30 transition duration-300 transform hover:scale-105 text-sm md:text-base border border-dewi-pink/40">
+                    Download APK
+                </a>
+            </div>
         </div>
     </header>
 
     <!-- Hero Section -->
-    <section class="max-w-5xl mx-auto px-4 pt-10 pb-16 text-center relative">
-        <!-- Badge Info versi -->
-        <div class="inline-flex items-center gap-2 text-xs md:text-sm font-bold text-imperial-gold bg-imperial-red/40 border border-imperial-gold/30 px-4 py-1.5 rounded-full mb-6 shadow-inner backdrop-blur-sm">
-            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
-            Versi Khusus Gamer Higgs Domino • Mod Speeder X8 Tercepat 2026 - Dewi Q
+    <section class="max-w-5xl mx-auto px-4 pt-8 pb-16 text-center relative">
+        <!-- Badge Info Versi -->
+        <div class="inline-flex items-center gap-2 text-xs md:text-sm font-bold text-dewi-cyan bg-dewi-card/80 border border-dewi-cyan/40 px-4 py-1.5 rounded-full mb-6 shadow-lg shadow-dewi-cyan/10 backdrop-blur-sm">
+            <span class="w-2.5 h-2.5 rounded-full bg-dewi-pink animate-ping"></span>
+            Reviewer Game Higgs Domino Island Mod APK • Mod Speeder X8 Tercepat 2026
         </div>
         
-        <!-- Headline Utama yang Lebih Menggigit & Menarik -->
+        <!-- Headline Utama -->
         <h1 class="text-3xl md:text-5xl lg:text-6xl font-black text-white leading-tight mb-6 drop-shadow-md">
             Mati Angin Saat Spin? <br class="hidden md:block">
-            Saatnya Rasakan <span class="text-transparent bg-clip-text bg-gradient-to-r from-imperial-gold via-amber-200 to-imperial-gold">Sensasi Spin Mulus & Cepat!</span>
+            Saatnya Rasakan <span class="text-transparent bg-clip-text bg-gradient-to-r from-dewi-cyan via-pink-300 to-dewi-pink">Sensasi Spin Mulus & Cepat!</span>
         </h1>
         
         <p class="text-slate-300 text-base md:text-lg max-w-3xl mx-auto mb-8 leading-relaxed drop-shadow">
-            Bosan kena <strong class="text-imperial-gold">lag, patah-patah, atau keluar sendiri (force close)</strong> pas lagi nunggu Scatter atau Super Win? Pakai **Dewi Q Higgs Domino**! Dilengkapi <strong class="text-amber-300">X8 Speeder Bawaan Tanpa Iklan</strong>, respon super cepat, dan dijamin enteng di HP apa saja!
+            Hallo, aku Dewi! Bosan kena <strong class="text-dewi-cyan">lag, patah-patah, atau keluar sendiri (force close)</strong> pas lagi nunggu Scatter atau Super Win? Pakai **DewiQ Higgs Domino Mod APK**! Dilengkapi <strong class="text-dewi-pink">X8 Speeder Bawaan Tanpa Iklan</strong>, respon super cepat, dan dijamin enteng di HP apa saja!
         </p>
 
         <!-- Garansi Keamanan & Spesifikasi Singkat -->
         <div class="grid grid-cols-2 md:grid-cols-4 gap-3 max-w-3xl mx-auto mb-10 text-xs md:text-sm backdrop-blur-sm">
-            <div class="bg-imperial-red/30 border border-imperial-gold/30 p-2.5 rounded-xl font-semibold">
-                <i class="fa-solid fa-fire text-imperial-gold mr-1"></i> X8 Speeder Anti-Lag
+            <div class="bg-dewi-card/80 border border-dewi-cyan/30 p-3 rounded-xl font-semibold shadow-md hover:border-dewi-cyan transition">
+                <i class="fa-solid fa-bolt text-dewi-cyan mr-1"></i> X8 Speeder Anti-Lag
             </div>
-            <div class="bg-imperial-red/30 border border-imperial-gold/30 p-2.5 rounded-xl font-semibold">
-                <i class="fa-solid fa-ban text-imperial-gold mr-1"></i> Tanpa Iklan Ganggu
+            <div class="bg-dewi-card/80 border border-dewi-pink/30 p-3 rounded-xl font-semibold shadow-md hover:border-dewi-pink transition">
+                <i class="fa-solid fa-ban text-dewi-pink mr-1"></i> Tanpa Iklan Ganggu
             </div>
-            <div class="bg-imperial-red/30 border border-imperial-gold/30 p-2.5 rounded-xl font-semibold">
-                <i class="fa-solid fa-shield-halved text-imperial-gold mr-1"></i> Aman 100% Anti Banned
+            <div class="bg-dewi-card/80 border border-dewi-cyan/30 p-3 rounded-xl font-semibold shadow-md hover:border-dewi-cyan transition">
+                <i class="fa-solid fa-shield-halved text-dewi-cyan mr-1"></i> Aman 100% Anti Banned
             </div>
-            <div class="bg-imperial-red/30 border border-imperial-gold/30 p-2.5 rounded-xl font-semibold">
-                <i class="fa-solid fa-bolt text-imperial-gold mr-1"></i> Spin Cepat & Responsif
+            <div class="bg-dewi-card/80 border border-dewi-pink/30 p-3 rounded-xl font-semibold shadow-md hover:border-dewi-pink transition">
+                <i class="fa-solid fa-fire text-dewi-pink mr-1"></i> Spin Cepat & Responsif
             </div>
         </div>
 
         <!-- Tombol Download Utama -->
         <div id="download" class="flex flex-col sm:flex-row justify-center items-center gap-4 mb-14">
-            <a href="https://github.com/financebebas-lang/dewiq/releases/download/mod/Higgs_Games_Island_Terbaru.V.2.81.apk" download class="w-full sm:w-auto bg-gradient-to-r from-imperial-redbright via-imperial-red to-red-900 hover:from-red-600 hover:to-imperial-red text-white font-extrabold px-8 py-4 rounded-2xl shadow-xl shadow-imperial-red/50 transition duration-300 flex items-center justify-center gap-3 text-lg border border-imperial-gold/40 transform hover:-translate-y-1">
-                <i class="fa-solid fa-download text-xl text-imperial-gold"></i> 
+            <a href="https://github.com/financebebas-lang/dewiq/releases/download/mod/Higgs_Games_Island_Terbaru.V.2.81.apk" download class="w-full sm:w-auto bg-gradient-to-r from-dewi-pink via-purple-600 to-dewi-pink hover:brightness-125 text-white font-extrabold px-8 py-4 rounded-2xl shadow-xl shadow-dewi-pink/40 transition duration-300 flex items-center justify-center gap-3 text-lg border border-white/20 transform hover:-translate-y-1">
+                <i class="fa-solid fa-download text-xl text-dewi-cyan"></i> 
                 <span>AMBIL APK NIKMATI SPIN LANCAR!</span>
             </a>
-            <a href="#panduan" class="w-full sm:w-auto bg-slate-900/80 hover:bg-slate-800 text-slate-300 font-bold px-6 py-4 rounded-2xl border border-slate-700/80 transition duration-300 text-base backdrop-blur-sm">
+            <a href="#panduan" class="w-full sm:w-auto bg-dewi-card/80 hover:bg-dewi-card text-slate-300 font-bold px-6 py-4 rounded-2xl border border-dewi-cyan/30 transition duration-300 text-base backdrop-blur-sm">
                 Cara Pasang di HP
             </a>
         </div>
 
-        <!-- Section Video Tutorial -->
-        <div class="max-w-4xl mx-auto bg-gradient-to-b from-imperial-red/40 to-slate-900/90 p-3 rounded-3xl border border-imperial-gold/30 shadow-2xl backdrop-blur-md">
-            <div class="bg-slate-950/90 p-2 rounded-2xl">
-                <p class="text-xs text-imperial-gold font-bold mb-2 flex items-center justify-center gap-2">
-                    <i class="fa-solid fa-circle-play"></i> Tonton Sendiri Kelancaran Spin & Speeder-nya Di Sini!
+        <!-- Section Video Tutorial YouTube -->
+        <div class="max-w-4xl mx-auto bg-gradient-to-b from-dewi-pink/30 via-dewi-card to-dewi-card p-3 rounded-3xl border border-dewi-pink/40 shadow-2xl backdrop-blur-md">
+            <div class="bg-dewi-dark/90 p-3 rounded-2xl">
+                <p class="text-xs md:text-sm text-dewi-cyan font-bold mb-3 flex items-center justify-center gap-2">
+                    <i class="fa-brands fa-youtube text-red-500 text-lg"></i> Tonton Reviewer Resmi dari Channel YouTube DewiQ!
                 </p>
-                <div class="relative w-full overflow-hidden rounded-xl" style="padding-top: 56.25%;">
+                <div class="relative w-full overflow-hidden rounded-xl shadow-inner border border-white/10" style="padding-top: 56.25%;">
                     <iframe 
                         class="absolute top-0 left-0 w-full h-full border-0"
                         src="https://www.youtube.com/embed/6eSwBE70k4s?si=PtF9RyjtbfIhGh2C" 
-                        title="Gameplay & Tutorial Dewi Q Higgs Domino" 
+                        title="Review Game Higgs Domino Mod APK - DewiQ" 
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
                         referrerpolicy="strict-origin-when-cross-origin" 
                         allowfullscreen>
@@ -140,7 +155,7 @@
     </section>
 
     <!-- Alasan Harus Download -->
-    <section class="bg-slate-950/80 py-16 border-t border-slate-800/80 backdrop-blur-md">
+    <section class="bg-slate-950/80 py-16 border-t border-dewi-cyan/20 backdrop-blur-md">
         <div class="max-w-6xl mx-auto px-4">
             <div class="text-center mb-12">
                 <h2 class="text-2xl md:text-4xl font-extrabold text-white">Kenapa Pemain Higgs Domino Wajib Punya APK Ini?</h2>
@@ -149,8 +164,8 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <!-- Point 1 -->
-                <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800 hover:border-imperial-gold/50 transition backdrop-blur-sm">
-                    <div class="w-12 h-12 bg-imperial-red/30 text-imperial-gold rounded-xl flex items-center justify-center text-xl mb-4 border border-imperial-gold/20">
+                <div class="bg-dewi-card/80 p-6 rounded-2xl border border-dewi-cyan/20 hover:border-dewi-cyan/60 transition backdrop-blur-sm hover:shadow-lg hover:shadow-dewi-cyan/10">
+                    <div class="w-12 h-12 bg-dewi-cyan/20 text-dewi-cyan rounded-xl flex items-center justify-center text-xl mb-4 border border-dewi-cyan/30">
                         <i class="fa-solid fa-gauge-high"></i>
                     </div>
                     <h3 class="text-lg font-bold text-white mb-2">Speeder X8 Tinggal Pakai</h3>
@@ -160,8 +175,8 @@
                 </div>
 
                 <!-- Point 2 -->
-                <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800 hover:border-imperial-gold/50 transition backdrop-blur-sm">
-                    <div class="w-12 h-12 bg-imperial-red/30 text-imperial-gold rounded-xl flex items-center justify-center text-xl mb-4 border border-imperial-gold/20">
+                <div class="bg-dewi-card/80 p-6 rounded-2xl border border-dewi-pink/20 hover:border-dewi-pink/60 transition backdrop-blur-sm hover:shadow-lg hover:shadow-dewi-pink/10">
+                    <div class="w-12 h-12 bg-dewi-pink/20 text-dewi-pink rounded-xl flex items-center justify-center text-xl mb-4 border border-dewi-pink/30">
                         <i class="fa-solid fa-triangle-exclamation"></i>
                     </div>
                     <h3 class="text-lg font-bold text-white mb-2">Bebas Patah-Patah & Crash</h3>
@@ -171,8 +186,8 @@
                 </div>
 
                 <!-- Point 3 -->
-                <div class="bg-slate-900/80 p-6 rounded-2xl border border-slate-800 hover:border-imperial-gold/50 transition backdrop-blur-sm">
-                    <div class="w-12 h-12 bg-imperial-red/30 text-imperial-gold rounded-xl flex items-center justify-center text-xl mb-4 border border-imperial-gold/20">
+                <div class="bg-dewi-card/80 p-6 rounded-2xl border border-dewi-cyan/20 hover:border-dewi-cyan/60 transition backdrop-blur-sm hover:shadow-lg hover:shadow-dewi-cyan/10">
+                    <div class="w-12 h-12 bg-dewi-cyan/20 text-dewi-cyan rounded-xl flex items-center justify-center text-xl mb-4 border border-dewi-cyan/30">
                         <i class="fa-solid fa-temperature-arrow-down"></i>
                     </div>
                     <h3 class="text-lg font-bold text-white mb-2">HP Nggak Cepat Panas</h3>
@@ -186,30 +201,30 @@
 
     <!-- Panduan Cara Install -->
     <section id="panduan" class="py-16 max-w-4xl mx-auto px-4">
-        <div class="bg-gradient-to-b from-slate-900/90 to-imperial-dark/95 p-6 md:p-8 rounded-3xl border border-imperial-gold/20 backdrop-blur-md">
+        <div class="bg-gradient-to-b from-dewi-card to-dewi-dark p-6 md:p-8 rounded-3xl border border-dewi-cyan/30 backdrop-blur-md shadow-2xl">
             <h2 class="text-xl md:text-3xl font-extrabold text-white text-center mb-8 flex items-center justify-center gap-2">
-                <i class="fa-solid fa-circle-check text-imperial-gold"></i> Cara Pasang APK Cuma 1 Menit!
+                <i class="fa-solid fa-circle-check text-dewi-cyan"></i> Cara Pasang APK Cuma 1 Menit!
             </h2>
 
             <div class="space-y-4">
-                <div class="flex items-start gap-4 bg-slate-950/60 p-4 rounded-xl border border-slate-800">
-                    <span class="w-8 h-8 rounded-full bg-imperial-gold text-imperial-dark font-black flex items-center justify-center shrink-0">1</span>
+                <div class="flex items-start gap-4 bg-dewi-dark/80 p-4 rounded-xl border border-dewi-cyan/20">
+                    <span class="w-8 h-8 rounded-full bg-dewi-cyan text-dewi-dark font-black flex items-center justify-center shrink-0">1</span>
                     <div>
                         <h4 class="font-bold text-white">Download APK</h4>
-                        <p class="text-slate-400 text-sm mt-0.5">Klik tombol <strong class="text-imperial-gold">Download</strong> di halaman ini, tunggu file tersimpan di HP kamu.</p>
+                        <p class="text-slate-400 text-sm mt-0.5">Klik tombol <strong class="text-dewi-cyan">Download</strong> di halaman ini, tunggu file tersimpan di HP kamu.</p>
                     </div>
                 </div>
 
-                <div class="flex items-start gap-4 bg-slate-950/60 p-4 rounded-xl border border-slate-800">
-                    <span class="w-8 h-8 rounded-full bg-imperial-gold text-imperial-dark font-black flex items-center justify-center shrink-0">2</span>
+                <div class="flex items-start gap-4 bg-dewi-dark/80 p-4 rounded-xl border border-dewi-pink/20">
+                    <span class="w-8 h-8 rounded-full bg-dewi-pink text-white font-black flex items-center justify-center shrink-0">2</span>
                     <div>
                         <h4 class="font-bold text-white">Aktifkan Izin Pemasangan</h4>
                         <p class="text-slate-400 text-sm mt-0.5">Buka <em>Pengaturan HP > Keamanan > Aktifkan "Sumber Tidak Dikenal" (Unknown Sources)</em>.</p>
                     </div>
                 </div>
 
-                <div class="flex items-start gap-4 bg-slate-950/60 p-4 rounded-xl border border-slate-800">
-                    <span class="w-8 h-8 rounded-full bg-imperial-gold text-imperial-dark font-black flex items-center justify-center shrink-0">3</span>
+                <div class="flex items-start gap-4 bg-dewi-dark/80 p-4 rounded-xl border border-dewi-cyan/20">
+                    <span class="w-8 h-8 rounded-full bg-dewi-cyan text-dewi-dark font-black flex items-center justify-center shrink-0">3</span>
                     <div>
                         <h4 class="font-bold text-white">Install & Langsung Main!</h4>
                         <p class="text-slate-400 text-sm mt-0.5">Buka file APK yang sudah didownload, klik <strong>Install</strong>, lalu login ke akun Domino kamu seperti biasa!</p>
@@ -219,18 +234,29 @@
 
             <!-- CTA Akhir -->
             <div class="mt-8 text-center">
-                <a href="https://github.com/financebebas-lang/dewiq/releases/download/mod/Higgs_Games_Island_Terbaru.V.2.81.apk" download class="inline-flex items-center gap-2 bg-gradient-to-r from-imperial-gold to-yellow-600 text-imperial-dark font-extrabold px-8 py-3.5 rounded-xl hover:brightness-110 transition shadow-lg">
+                <a href="https://github.com/financebebas-lang/dewiq/releases/download/mod/Higgs_Games_Island_Terbaru.V.2.81.apk" download class="inline-flex items-center gap-2 bg-gradient-to-r from-dewi-pink to-purple-600 hover:from-pink-500 hover:to-dewi-pink text-white font-extrabold px-8 py-3.5 rounded-xl transition shadow-lg shadow-dewi-pink/30">
                     <i class="fa-solid fa-download"></i> DOWNLOAD SEKARANG & RASAKAN BEDANYA!
                 </a>
             </div>
         </div>
     </section>
 
+    <!-- Social Media Section -->
+    <section class="py-10 bg-dewi-card/60 border-t border-dewi-cyan/20 text-center">
+        <p class="text-xs text-dewi-cyan font-bold tracking-widest uppercase mb-3">Ikuti Media Sosial Resmi</p>
+        <div class="flex justify-center items-center gap-6 text-2xl">
+            <a href="https://www.youtube.com/@dedewiq" target="_blank" class="text-slate-400 hover:text-red-500 transition"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.tiktok.com/@dewiQ_official" target="_blank" class="text-slate-400 hover:text-dewi-cyan transition"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.instagram.com/dewiQ_official" target="_blank" class="text-slate-400 hover:text-dewi-pink transition"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+        <p class="text-xs text-slate-400 mt-2">@dewiQ_official</p>
+    </section>
+
     <!-- Footer -->
-    <footer class="bg-slate-950/90 text-slate-500 py-8 border-t border-slate-900 text-center text-xs backdrop-blur-md">
+    <footer class="bg-dewi-dark text-slate-500 py-8 border-t border-slate-900 text-center text-xs">
         <div class="max-w-6xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4">
-            <p>&copy; 2026 Dewi Q Higgs Domino Island. Hak Cipta Dilindungi Undang-Undang.</p>
-            <button onclick="bukaModalAdmin()" class="text-slate-600 hover:text-imperial-gold transition flex items-center gap-1">
+            <p>&copy; 2026 DewiQ Official. Hak Cipta Dilindungi Undang-Undang.</p>
+            <button onclick="bukaModalAdmin()" class="text-slate-600 hover:text-dewi-cyan transition flex items-center gap-1">
                 <i class="fa-solid fa-lock text-[10px]"></i> Admin Area
             </button>
         </div>
@@ -238,18 +264,18 @@
 
     <!-- Modal Admin -->
     <div id="adminModal" class="fixed inset-0 bg-black/80 backdrop-blur-sm z-50 hidden flex items-center justify-center p-4">
-        <div class="bg-slate-900 border border-imperial-gold/30 rounded-2xl p-6 max-w-sm w-full shadow-2xl relative">
+        <div class="bg-dewi-card border border-dewi-cyan/30 rounded-2xl p-6 max-w-sm w-full shadow-2xl relative">
             <button onclick="tutupModalAdmin()" class="absolute top-4 right-4 text-slate-400 hover:text-white">
                 <i class="fa-solid fa-xmark text-xl"></i>
             </button>
 
             <div id="loginSection">
                 <h3 class="text-lg font-bold text-white mb-2 flex items-center gap-2">
-                    <i class="fa-solid fa-user-shield text-imperial-gold"></i> Login Admin
+                    <i class="fa-solid fa-user-shield text-dewi-cyan"></i> Login Admin
                 </h3>
                 <p class="text-xs text-slate-400 mb-4">Masukkan PIN untuk melihat statistik pengunjung.</p>
-                <input type="password" id="adminPin" placeholder="Masukkan PIN" class="w-full px-4 py-2 bg-slate-800 border border-slate-700 rounded-xl text-white mb-3 focus:outline-none focus:border-imperial-gold">
-                <button onclick="verifikasiPin()" class="w-full bg-imperial-gold hover:bg-yellow-500 text-imperial-dark font-bold py-2 rounded-xl transition">
+                <input type="password" id="adminPin" placeholder="Masukkan PIN" class="w-full px-4 py-2 bg-dewi-dark border border-slate-700 rounded-xl text-white mb-3 focus:outline-none focus:border-dewi-cyan">
+                <button onclick="verifikasiPin()" class="w-full bg-dewi-cyan hover:bg-cyan-400 text-dewi-dark font-bold py-2 rounded-xl transition">
                     Masuk
                 </button>
                 <p id="errorMsg" class="text-red-400 text-xs mt-2 hidden text-center">PIN Salah!</p>
@@ -257,11 +283,11 @@
 
             <div id="statsSection" class="hidden">
                 <h3 class="text-lg font-bold text-white mb-4 flex items-center gap-2">
-                    <i class="fa-solid fa-chart-line text-imperial-gold"></i> Statistik Pengunjung
+                    <i class="fa-solid fa-chart-line text-dewi-pink"></i> Statistik Pengunjung
                 </h3>
-                <div class="bg-slate-800 p-4 rounded-xl border border-slate-700 text-center mb-4">
+                <div class="bg-dewi-dark p-4 rounded-xl border border-slate-700 text-center mb-4">
                     <span class="text-xs text-slate-400 block mb-1">Total Kunjungan</span>
-                    <span id="visitorCountDisplay" class="text-3xl font-extrabold text-imperial-gold">Loading...</span>
+                    <span id="visitorCountDisplay" class="text-3xl font-extrabold text-dewi-cyan">Loading...</span>
                 </div>
                 <button onclick="tutupModalAdmin()" class="w-full bg-slate-800 hover:bg-slate-700 text-slate-300 font-bold py-2 rounded-xl border border-slate-700 transition">
                     Tutup
